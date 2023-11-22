@@ -4,11 +4,47 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87851f1e-50be-43ba-9115-202abbb900b1" name="Changes" comment="" />
+    <list default="true" id="87851f1e-50be-43ba-9115-202abbb900b1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/medeiros/felipe/controller/AlunoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/medeiros/felipe/controller/AvaliacaoFisicaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/medeiros/felipe/controller/MatriculaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/medeiros/felipe/controller/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/medeiros/felipe/domain/model/Aluno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/medeiros/felipe/domain/model/AvaliacaoFisica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/medeiros/felipe/domain/model/Desempenho.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/medeiros/felipe/domain/model/Matricula.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/medeiros/felipe/domain/model/form/AlunoAtualizacaoForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/medeiros/felipe/domain/model/form/AlunoForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/medeiros/felipe/domain/model/form/AvaliacaoFisicaAtualizacaoForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/medeiros/felipe/domain/model/form/AvaliacaoFisicaForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/medeiros/felipe/domain/model/form/MatriculaForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/medeiros/felipe/domain/repository/AlunoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/medeiros/felipe/domain/repository/AvaliacaoFisicaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/medeiros/felipe/domain/repository/MatriculaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/medeiros/felipe/infra/jackson/deser/LocalDateDeserializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/medeiros/felipe/infra/jackson/ser/LocalDateTimeDeserializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/medeiros/felipe/infra/utils/JavaTimeUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/medeiros/felipe/service/IAlunoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/medeiros/felipe/service/IAvaliacaoFisicaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/medeiros/felipe/service/IMatriculaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/medeiros/felipe/service/impl/AlunoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/medeiros/felipe/service/impl/AvaliacaoFisicaServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/medeiros/felipe/service/impl/MatriculaServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-prd.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -26,9 +62,40 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/felipem.medeiros/Documents/02-cursos/java/academia/src/main/resources",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\felipem.medeiros\Documents\02-cursos\java\academia\src\main\resources" />
+      <recent name="C:\Users\felipem.medeiros\Documents\02-cursos\java\academia\src\main\java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Application DEV" type="Application" factoryName="Application" temporary="true">
+      <envs>
+        <env name="SPRING_PROFILES_ACTIVE " value="dev" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="Application" />
+      <module name="academia-springboot" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Application DEV" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
